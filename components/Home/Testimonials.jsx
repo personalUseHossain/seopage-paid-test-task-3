@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react";
-import HertzLogo from "@/assets/clients_partners/Logo-1.svg";
+import HertzLogo from "@/assets/clients_partners/logo-1.svg";
 import User1 from "@/assets/testimonials/user/user-1.png";
 import Testimonial1 from "@/assets/testimonials/testimonial/testimonial-1.png";
 import { RxArrowTopRight } from "react-icons/rx";
