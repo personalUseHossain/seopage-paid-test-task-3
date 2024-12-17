@@ -1,0 +1,23 @@
+.hero-section-bottom-heading{
+    justify-self: end;
+}
+
+.small-device-hero-section-heading{
+    display: none;
+}
+
+
+@media (width < 750px) {
+    .hero-section-bottom-heading{
+        justify-self: start;
+    }
+}
+@media (width < 550px) {
+    .small-device-hero-section-heading{
+        display: block;
+    }
+
+    .big-device-hero-section-heading{
+        display: none;
+    }
+}

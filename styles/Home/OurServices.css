@@ -1,0 +1,35 @@
+/* Default styling for the service card */
+.service-card {
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition background color and transform */
+}
+
+.service-card:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+
+/* Transitions for all elements inside .service-card */
+.service-card, .service-icon-path, .service-card-heading, .service-top-icon, .service-card:hover .service-top-icon svg {
+  transition: all 0.5s ease-in-out; /* Smooth transitions for all properties */
+}
+
+/* Hover effects */
+.service-card:hover .service-icon-path {
+  fill: #26fd40 !important; /* The color you want on hover */
+}
+
+.service-card:hover .service-card-heading {
+  background: linear-gradient(to right, #d8ff25, #26fd40);
+  -webkit-background-clip: text; /* Ensure the gradient applies to text */
+  color: transparent; /* Make the text transparent to show the gradient */
+  background-clip: text; /* For other browsers */
+}
+
+.service-card:hover .service-top-icon {
+  background-color: #5c5b5b;
+}
+
+.service-card:hover .service-top-icon svg {
+  transform: translate(5px, -5px); /* Add some movement on hover */
+}
+

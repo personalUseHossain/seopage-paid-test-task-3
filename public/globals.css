@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    min-width: 400px;
+}
+
+.hide-scroll::-webkit-scrollbar{
+    display: none
+}
+
+
+.gradient-btn {
+    @apply px-6 py-2 text-black rounded-md font-semibold bg-gradient-to-r from-[#d8ff25] to-[#26fd40] transition-all duration-500;
+  }
+  
+  .gradient-btn:hover {
+    @apply from-[#26fd40] to-[#26fd40];
+  }
+
+  .normal-btn{
+    @apply px-6 py-2 text-white rounded-md font-semibold bg-btnHoverDark hover:bg-btnHoverLight transition-all duration-500;
+  }
+
+
+  h1{
+    font-size: 72px;
+    font-weight: bold;
+  }
+
+
+
+  @media (width < 750px) {
+    h1{
+        font-size: 50px;
+    }
+  }
+
+  @media (width < 550px) {
+    .midiumHeading{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,21 @@
+.contact-form .input-field{
+    background-color: transparent;
+    flex: 1;
+    border-bottom: 1px solid #333333;
+    padding: .5rem;
+    outline: none;
+}
+
+
+
+.contact-form .input-field::placeholder{
+    color: white;
+}
+
+@media (width < 968px){
+    .contact-form{
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+}

@@ -1,0 +1,25 @@
+.menu-contact-link{
+    display: none;
+}
+
+@media (width < 1169px) {
+    .middle-links{
+        display: none;
+    }
+}
+
+
+@media (width < 760px) {
+    .contact-btn{
+        display: none;
+    }
+    .menu-contact-link{
+        display: block;
+    }
+}
+
+@media (width < 624px) {
+    .beside-logo-text{
+        display: none;
+    }
+}

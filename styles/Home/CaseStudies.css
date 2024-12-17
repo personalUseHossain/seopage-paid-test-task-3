@@ -1,0 +1,9 @@
+.card-paragraph{
+    max-width: 30%;
+}
+
+@media (width < 820px) {
+    .card-paragraph{
+        max-width: 100%;
+    }
+}

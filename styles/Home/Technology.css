@@ -1,0 +1,9 @@
+.technology-section-text {
+    justify-self: end;
+}
+
+@media (width < 839px) {
+    .technology-section-text{
+        justify-self: start;
+    }
+}
