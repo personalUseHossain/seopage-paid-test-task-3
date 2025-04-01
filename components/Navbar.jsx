@@ -14,7 +14,7 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   return (
-    <nav className="w-full text-white bg-black sticky top-0 left-0 z-20 px-3">
+    <nav className="w-full text-white bg-black sticky top-0 left-0 z-20">
       <div className="mx-auto">
         <div className="flex items-center justify-between py-4">
           {/* Left links */}
@@ -57,7 +57,7 @@ export default function Navbar() {
             </Link>
 
             <div
-              className="p-3 rounded-lg bg-light_dark flex justify-between items-center w-[13vw] gap-3 cursor-pointer max-w-[10rem]"
+              className="p-3 rounded-lg lg:flex hidden bg-light_dark justify-between items-center w-[13vw] gap-3 cursor-pointer max-w-[10rem]"
               onClick={toggleMenu}
             >
               <p>Menu</p>
@@ -69,7 +69,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="bg-light_dark rounded-lg">
+        <div className="bg-light_dark">
           <div className="flex flex-col items-center py-4 space-y-4">
             <Link href="/comming-soon" className="text-lg">
               Our Case Study
