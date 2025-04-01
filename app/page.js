@@ -17,7 +17,7 @@ export default function Home() {
     const router = useRouter()
   return (
     <>
-    <div className=" max-w-[1200px] mx-auto">
+    <div className="max-w-[1200px] mx-auto">
       <Navbar router={router}/>
       
          <div className="bg-light_dark rounded-lg px-2">

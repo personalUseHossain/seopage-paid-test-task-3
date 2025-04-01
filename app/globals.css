@@ -5,15 +5,8 @@
 body{
     min-width: 400px;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
-.small-device-section{
-    display: none;
-}
-.big-device-section{
-    display: block;
-}
 
 .hide-scroll::-webkit-scrollbar{
     display: none
@@ -55,17 +48,6 @@ body{
 }
 
 
-@media (width < 1200px) or (height < 920px) {
-    .small-device-section{
-        display: block;
-    }
-    .big-device-section{
-        display: none;
-    }
-    body{
-        overflow-y: auto;
-    }
-}
 
 
 @media (width < 1024px) {
